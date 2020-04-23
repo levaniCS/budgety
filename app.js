@@ -205,7 +205,7 @@ var UIController = (function () {
         }</div><div class="right clearfix"><div class="item__value">${formatNumber(
           obj.value,
           type
-        )}</div><div class="item__delete"><button class="item__delete--btn"><i class="ion-ios-close-outline"></i></button></div></div></div>`;
+        )}</div><div class="item__delete"><button class="item__delete--btn"><i class="far fa-trash-alt"></i></button></div></div></div>`;
       } else {
         elemement = DOMstrings.expansesContainer;
         html = `<div class="item clearfix" id="exp-${
@@ -215,7 +215,7 @@ var UIController = (function () {
         }</div><div class="right clearfix"><div class="item__value">${formatNumber(
           obj.value,
           type
-        )}</div><div class="item__percentage">21%</div><div class="item__delete"><button class="item__delete--btn"><i class="ion-ios-close-outline"></i></button></div></div></div>`;
+        )}</div><div class="item__percentage">21%</div><div class="item__delete"><button class="item__delete--btn"><i class="far fa-trash-alt"></i></button></div></div></div>`;
       }
       // 2. replace placeholder text with actual data from obj
       // it does with backticks (` `) and $ sign
